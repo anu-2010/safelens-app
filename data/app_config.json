@@ -1,0 +1,22 @@
+{
+  "app_name": "SAFELENS",
+  "app_subtitle": "WSDOT Safety Intelligence",
+  "tagline": "Discover. Explain. Investigate.",
+  "analysis_period": "2020–2025",
+  "default_view": "discover",
+  "views": [
+    "discover",
+    "explain",
+    "compare",
+    "investigate"
+  ],
+  "assets": {
+    "finding_cards": "finding_cards.json",
+    "summary": "summary.json",
+    "methodology": "methodology.json",
+    "yearly_findings": "yearly_findings.json",
+    "peer_groups": "peer_groups.json"
+  },
+  "finding_count": 16,
+  "map_asset": null
+}

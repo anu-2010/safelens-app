@@ -1,0 +1,26 @@
+{
+  "project": "SAFELENS",
+  "research_question": "Can roadway, traffic, and crash data be combined to identify roadway segments associated with unusually high fatal and serious-injury crash patterns after accounting for traffic exposure and roadway environment?",
+  "analysis_period": "2020–2025",
+  "unit_of_analysis": "WSDOT traffic section-year, aggregated to roadway segments for final findings",
+  "primary_outcome": "Fatal and serious-injury crashes (FSI)",
+  "exposure": "AADT × section length × 365, used as an exposure proxy",
+  "peer_environment": [
+    "Urban/rural status",
+    "Divided/undivided status",
+    "Speed category"
+  ],
+  "statistical_model": "Negative Binomial count model with traffic exposure offset and peer-environment context",
+  "unusualness": "Upper-tail probability of observing at least the observed FSI count under the modeled expected count",
+  "persistence": "Number of years from 2020–2025 with at least one FSI crash",
+  "finding_selection": [
+    "Statistically unusual relative to modeled peer environment",
+    "At least 3 FSI crashes across the analysis period",
+    "At least 5 million units of cumulative exposure proxy",
+    "FSI observed in at least 3 years",
+    "Observed/expected ratio greater than 1"
+  ],
+  "interpretation_guardrail": "SAFELENS identifies statistical associations and unusual patterns. It does not establish causation, determine fault, or prescribe an engineering treatment.",
+  "roadway_data_note": "Roadway characteristics are reference/current roadway attributes applied to the historical analysis and should not be interpreted as exact historical roadway conditions for every crash year.",
+  "crash_context_note": "Crash-context attributes describe reported characteristics of crashes associated with a finding; they are not causal explanations."
+}

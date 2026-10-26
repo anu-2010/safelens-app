@@ -1,0 +1,15 @@
+{
+  "asset": "findings.geojson",
+  "description": "Compact map containing the 16 final SAFELENS findings.",
+  "feature_count": 16,
+  "coordinate_system": "WGS84 / EPSG:4326",
+  "geometry_source": "Original WSDOT annual TrafficSections geometry",
+  "geometry_fields": {
+    "route": "StateRouteNumber",
+    "begin_arm": "BeginAccumulatedRouteMile",
+    "end_arm": "EndAccumulatedRouteMile"
+  },
+  "analysis_period": "2020–2025",
+  "selection": "Only the 16 final SAFELENS findings are included.",
+  "note": "Map geometry is a visualization asset and does not alter the statistical analysis."
+}

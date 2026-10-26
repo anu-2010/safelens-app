@@ -1,0 +1,122 @@
+[
+  {
+    "code": "U_N_<=35",
+    "urban_rural": "Urban",
+    "divided": "Undivided",
+    "speed_category": "<=35 mph"
+  },
+  {
+    "code": "U_N_40-45",
+    "urban_rural": "Urban",
+    "divided": "Undivided",
+    "speed_category": "40–45 mph"
+  },
+  {
+    "code": "U_N_50-55",
+    "urban_rural": "Urban",
+    "divided": "Undivided",
+    "speed_category": "50–55 mph"
+  },
+  {
+    "code": "U_N_60-65",
+    "urban_rural": "Urban",
+    "divided": "Undivided",
+    "speed_category": "60–65 mph"
+  },
+  {
+    "code": "U_N_70+",
+    "urban_rural": "Urban",
+    "divided": "Undivided",
+    "speed_category": "70+ mph"
+  },
+  {
+    "code": "U_Y_<=35",
+    "urban_rural": "Urban",
+    "divided": "Divided",
+    "speed_category": "<=35 mph"
+  },
+  {
+    "code": "U_Y_40-45",
+    "urban_rural": "Urban",
+    "divided": "Divided",
+    "speed_category": "40–45 mph"
+  },
+  {
+    "code": "U_Y_50-55",
+    "urban_rural": "Urban",
+    "divided": "Divided",
+    "speed_category": "50–55 mph"
+  },
+  {
+    "code": "U_Y_60-65",
+    "urban_rural": "Urban",
+    "divided": "Divided",
+    "speed_category": "60–65 mph"
+  },
+  {
+    "code": "U_Y_70+",
+    "urban_rural": "Urban",
+    "divided": "Divided",
+    "speed_category": "70+ mph"
+  },
+  {
+    "code": "R_N_<=35",
+    "urban_rural": "Rural",
+    "divided": "Undivided",
+    "speed_category": "<=35 mph"
+  },
+  {
+    "code": "R_N_40-45",
+    "urban_rural": "Rural",
+    "divided": "Undivided",
+    "speed_category": "40–45 mph"
+  },
+  {
+    "code": "R_N_50-55",
+    "urban_rural": "Rural",
+    "divided": "Undivided",
+    "speed_category": "50–55 mph"
+  },
+  {
+    "code": "R_N_60-65",
+    "urban_rural": "Rural",
+    "divided": "Undivided",
+    "speed_category": "60–65 mph"
+  },
+  {
+    "code": "R_N_70+",
+    "urban_rural": "Rural",
+    "divided": "Undivided",
+    "speed_category": "70+ mph"
+  },
+  {
+    "code": "R_Y_<=35",
+    "urban_rural": "Rural",
+    "divided": "Divided",
+    "speed_category": "<=35 mph"
+  },
+  {
+    "code": "R_Y_40-45",
+    "urban_rural": "Rural",
+    "divided": "Divided",
+    "speed_category": "40–45 mph"
+  },
+  {
+    "code": "R_Y_50-55",
+    "urban_rural": "Rural",
+    "divided": "Divided",
+    "speed_category": "50–55 mph"
+  },
+  {
+    "code": "R_Y_60-65",
+    "urban_rural": "Rural",
+    "divided": "Divided",
+    "speed_category": "60–65 mph"
+  },
+  {
+    "code": "R_Y_70+",
+    "urban_rural": "Rural",
+    "divided": "Divided",
+    "speed_category": "70+ mph"
+  }
+]

@@ -1,0 +1,1730 @@
+[
+  {
+    "finding_id": "SL-001",
+    "title": "SR 005 · ARM 165.65–165.84",
+    "route": "SR 005",
+    "arm": {
+      "begin": 165.64999389648438,
+      "end": 165.83999633789062
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Recurring",
+      "peer_group": "U_Y_60-65"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 5,
+      "expected_fsi": 0.6334296747113275,
+      "observed_expected_ratio": 7.893536093456068,
+      "tail_probability": 0.005922898652996433,
+      "unusualness_score": 2.227465698529236,
+      "total_exposure_million": 38.628446350097654
+    },
+    "persistence": {
+      "years_with_fsi": 2,
+      "persistence_rate": 0.3333333333333333,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 3,
+        "2024": 2,
+        "2025": 0
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Divided",
+      "speed_mph": 60.0,
+      "lanes": 4.0,
+      "roadway_width_ft": 64.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_Y_60-65"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 98.51851851851852
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 40.74074074074074
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 69.62962962962963
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 62.96296296296296
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 58.51851851851851
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "60.0",
+        "percent": 97.03703703703704
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 98.51851851851852,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 62.96296296296296,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 58.51851851851851,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 40.74074074074074,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 69.62962962962963,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "5 fatal/serious-injury crashes were observed versus approximately 0.63 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "7.9× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 2 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-002",
+    "title": "SR 007 · ARM 52.61–52.85",
+    "route": "SR 007",
+    "arm": {
+      "begin": 52.61000061035156,
+      "end": 52.849998474121094
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_N_<=35"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 7,
+      "expected_fsi": 1.0897579882435326,
+      "observed_expected_ratio": 6.423444540454868,
+      "tail_probability": 0.006524288207853524,
+      "unusualness_score": 2.1854668624208817,
+      "total_exposure_million": 10.33670799255371
+    },
+    "persistence": {
+      "years_with_fsi": 5,
+      "persistence_rate": 0.8333333333333334,
+      "max_annual_fsi": 2.0,
+      "annual_fsi": {
+        "2020": 0,
+        "2021": 1,
+        "2022": 2,
+        "2023": 1,
+        "2024": 1,
+        "2025": 2
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Undivided",
+      "speed_mph": 35.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_N_<=35"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Intersection and Related",
+        "percent": 43.15789473684211
+      },
+      "WEATHER": {
+        "most_common": "Clear or Partly Cloudy",
+        "percent": 38.94736842105263
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 66.3157894736842
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 100.0
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 66.3157894736842
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "35.0",
+        "percent": 92.63157894736842
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Intersection and Related",
+        "share_percent": 43.15789473684211,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 100.0,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 66.3157894736842,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear or Partly Cloudy",
+        "share_percent": 38.94736842105263,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 66.3157894736842,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "7 fatal/serious-injury crashes were observed versus approximately 1.09 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "6.4× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 5 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-003",
+    "title": "SR 007 · ARM 56.86–57.01",
+    "route": "SR 007",
+    "arm": {
+      "begin": 56.86000061035156,
+      "end": 57.0099983215332
+    },
+    "classification": {
+      "tier": "Very Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_N_<=35"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 7,
+      "expected_fsi": 0.6176025603099933,
+      "observed_expected_ratio": 11.33414990457049,
+      "tail_probability": 0.0005744107674997246,
+      "unusualness_score": 3.2407774277109422,
+      "total_exposure_million": 5.858160610198975
+    },
+    "persistence": {
+      "years_with_fsi": 4,
+      "persistence_rate": 0.6666666666666666,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 1,
+        "2021": 1,
+        "2022": 2,
+        "2023": 3,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Undivided",
+      "speed_mph": 35.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 28.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_N_<=35"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Intersection and Related",
+        "percent": 63.49206349206349
+      },
+      "WEATHER": {
+        "most_common": "Clear or Partly Cloudy",
+        "percent": 34.92063492063492
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 74.60317460317461
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 98.4126984126984
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 73.01587301587301
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "35.0",
+        "percent": 69.84126984126983
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Intersection and Related",
+        "share_percent": 63.49206349206349,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 98.4126984126984,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 73.01587301587301,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear or Partly Cloudy",
+        "share_percent": 34.92063492063492,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 74.60317460317461,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "7 fatal/serious-injury crashes were observed versus approximately 0.62 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "11.3× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 4 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-004",
+    "title": "SR 012 · ARM 290.80–291.60",
+    "route": "SR 012",
+    "arm": {
+      "begin": 290.79998779296875,
+      "end": 291.6000061035156
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Recurring",
+      "peer_group": "U_Y_60-65"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 5,
+      "expected_fsi": 0.6895193333707067,
+      "observed_expected_ratio": 7.2514282892657445,
+      "tail_probability": 0.007831237862903979,
+      "unusualness_score": 2.1061695847443493,
+      "total_exposure_million": 42.04896240234375
+    },
+    "persistence": {
+      "years_with_fsi": 3,
+      "persistence_rate": 0.5,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 0,
+        "2021": 1,
+        "2022": 0,
+        "2023": 0,
+        "2024": 1,
+        "2025": 3
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Divided",
+      "speed_mph": 60.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 4.0,
+      "peer_group": "U_Y_60-65"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 44.44444444444444
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 62.22222222222222
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 84.44444444444444
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 84.44444444444444
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 60.0
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "60.0",
+        "percent": 75.55555555555556
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 44.44444444444444,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 84.44444444444444,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 60.0,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 62.22222222222222,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 84.44444444444444,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "5 fatal/serious-injury crashes were observed versus approximately 0.69 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "7.3× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 3 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-005",
+    "title": "SR 012 · ARM 338.61–339.67",
+    "route": "SR 012",
+    "arm": {
+      "begin": 338.6099853515625,
+      "end": 339.6700134277344
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Recurring",
+      "peer_group": "R_N_60-65"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 3,
+      "expected_fsi": 0.2883188062417321,
+      "observed_expected_ratio": 10.405148519811577,
+      "tail_probability": 0.009009222787426373,
+      "unusualness_score": 2.0453126733595695,
+      "total_exposure_million": 5.145906295776367
+    },
+    "persistence": {
+      "years_with_fsi": 2,
+      "persistence_rate": 0.3333333333333333,
+      "max_annual_fsi": 2.0,
+      "annual_fsi": {
+        "2020": 1,
+        "2021": 0,
+        "2022": 2,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Rural",
+      "divided": "Undivided",
+      "speed_mph": 60.0,
+      "lanes": 1.0,
+      "roadway_width_ft": 12.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "R_N_60-65"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 77.77777777777779
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 77.77777777777779
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 77.77777777777779
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 44.44444444444444
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Dark-No Street Lights",
+        "percent": 66.66666666666666
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "60.0",
+        "percent": 100.0
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 77.77777777777779,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 44.44444444444444,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Dark-No Street Lights",
+        "share_percent": 66.66666666666666,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 77.77777777777779,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 77.77777777777779,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "3 fatal/serious-injury crashes were observed versus approximately 0.29 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "10.4× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 2 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-006",
+    "title": "SR 018 · ARM 0.93–1.76",
+    "route": "SR 018",
+    "arm": {
+      "begin": 0.9300000071525574,
+      "end": 1.7599999904632568
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_Y_60-65"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 10,
+      "expected_fsi": 1.6642053710692257,
+      "observed_expected_ratio": 6.008873768731535,
+      "tail_probability": 0.004999824003871895,
+      "unusualness_score": 2.3010452827624843,
+      "total_exposure_million": 101.48824795931577
+    },
+    "persistence": {
+      "years_with_fsi": 5,
+      "persistence_rate": 0.8333333333333334,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 2,
+        "2021": 2,
+        "2022": 3,
+        "2023": 1,
+        "2024": 2,
+        "2025": 0
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Divided",
+      "speed_mph": 60.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_Y_60-65"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 96.88473520249221
+      },
+      "WEATHER": {
+        "most_common": "Clear or Partly Cloudy",
+        "percent": 35.202492211838006
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 69.78193146417445
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 53.89408099688473
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 66.66666666666666
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "60.0",
+        "percent": 91.58878504672897
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 96.88473520249221,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 53.89408099688473,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 66.66666666666666,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear or Partly Cloudy",
+        "share_percent": 35.202492211838006,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 69.78193146417445,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "10 fatal/serious-injury crashes were observed versus approximately 1.66 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "6.0× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 5 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-007",
+    "title": "SR 097 · ARM 60.38–61.23",
+    "route": "SR 097",
+    "arm": {
+      "begin": 60.380001068115234,
+      "end": 61.22999954223633
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Recurring",
+      "peer_group": "R_N_50-55"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 4,
+      "expected_fsi": 0.3953232571702174,
+      "observed_expected_ratio": 10.118301737754045,
+      "tail_probability": 0.004583083276978611,
+      "unusualness_score": 2.3388422513295763,
+      "total_exposure_million": 5.0570659217834475
+    },
+    "persistence": {
+      "years_with_fsi": 2,
+      "persistence_rate": 0.3333333333333333,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 1,
+        "2021": 3,
+        "2022": 0,
+        "2023": 0,
+        "2024": 0,
+        "2025": 0
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Rural",
+      "divided": "Undivided",
+      "speed_mph": 55.0,
+      "lanes": 1.0,
+      "roadway_width_ft": 12.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "R_N_50-55"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Intersection and Related",
+        "percent": 42.857142857142854
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 52.38095238095239
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 85.71428571428571
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 100.0
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 71.42857142857143
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "55.0",
+        "percent": 85.71428571428571
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Intersection and Related",
+        "share_percent": 42.857142857142854,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 100.0,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 71.42857142857143,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 52.38095238095239,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 85.71428571428571,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "4 fatal/serious-injury crashes were observed versus approximately 0.40 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "10.1× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 2 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-008",
+    "title": "SR 099 · ARM 0.19–0.51",
+    "route": "SR 099",
+    "arm": {
+      "begin": 0.1899999976158142,
+      "end": 0.5099999904632568
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_N_<=35"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 9,
+      "expected_fsi": 1.699298730093393,
+      "observed_expected_ratio": 5.296302433831256,
+      "tail_probability": 0.009619514518071467,
+      "unusualness_score": 2.0168468455758015,
+      "total_exposure_million": 16.118399639725688
+    },
+    "persistence": {
+      "years_with_fsi": 6,
+      "persistence_rate": 1.0,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 1,
+        "2021": 1,
+        "2022": 2,
+        "2023": 1,
+        "2024": 3,
+        "2025": 1
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Undivided",
+      "speed_mph": 35.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 36.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_N_<=35"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Driveway",
+        "percent": 41.42857142857143
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 68.57142857142857
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 72.14285714285714
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 91.42857142857143
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 60.71428571428571
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "35.0",
+        "percent": 90.0
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Driveway",
+        "share_percent": 41.42857142857143,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 91.42857142857143,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 60.71428571428571,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 68.57142857142857,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 72.14285714285714,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "9 fatal/serious-injury crashes were observed versus approximately 1.70 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "5.3× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 6 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-009",
+    "title": "SR 099 · ARM 32.05–32.15",
+    "route": "SR 099",
+    "arm": {
+      "begin": 32.04999923706055,
+      "end": 32.150001525878906
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_N_<=35"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 6,
+      "expected_fsi": 0.6695759809266044,
+      "observed_expected_ratio": 8.960894910980521,
+      "tail_probability": 0.002452673871115231,
+      "unusualness_score": 2.6103601955323845,
+      "total_exposure_million": 6.3511453628540036
+    },
+    "persistence": {
+      "years_with_fsi": 4,
+      "persistence_rate": 0.6666666666666666,
+      "max_annual_fsi": 2.0,
+      "annual_fsi": {
+        "2020": 0,
+        "2021": 1,
+        "2022": 1,
+        "2023": 0,
+        "2024": 2,
+        "2025": 2
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Undivided",
+      "speed_mph": 30.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 20.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_N_<=35"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Intersection and Related",
+        "percent": 70.1492537313433
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 43.28358208955223
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 77.61194029850746
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 71.64179104477611
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Dark-Street Lights On",
+        "percent": 47.76119402985074
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "30.0",
+        "percent": 38.80597014925373
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Intersection and Related",
+        "share_percent": 70.1492537313433,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 71.64179104477611,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Dark-Street Lights On",
+        "share_percent": 47.76119402985074,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 43.28358208955223,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 77.61194029850746,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "6 fatal/serious-injury crashes were observed versus approximately 0.67 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "9.0× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 4 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-010",
+    "title": "SR 099 · ARM 33.92–34.05",
+    "route": "SR 099",
+    "arm": {
+      "begin": 33.91999816894531,
+      "end": 34.04999923706055
+    },
+    "classification": {
+      "tier": "Very Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_N_40-45"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 8,
+      "expected_fsi": 0.71952858208744,
+      "observed_expected_ratio": 11.118390845282374,
+      "tail_probability": 0.0004152704950120959,
+      "unusualness_score": 3.3816689244370446,
+      "total_exposure_million": 8.730871734619141
+    },
+    "persistence": {
+      "years_with_fsi": 5,
+      "persistence_rate": 0.8333333333333334,
+      "max_annual_fsi": 2.0,
+      "annual_fsi": {
+        "2020": 1,
+        "2021": 2,
+        "2022": 2,
+        "2023": 0,
+        "2024": 1,
+        "2025": 2
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Undivided",
+      "speed_mph": 40.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_N_40-45"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Intersection and Related",
+        "percent": 63.38028169014085
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 38.028169014084504
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 71.83098591549296
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 77.46478873239437
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 54.929577464788736
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "35.0",
+        "percent": 40.845070422535215
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Intersection and Related",
+        "share_percent": 63.38028169014085,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 77.46478873239437,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 54.929577464788736,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 38.028169014084504,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 71.83098591549296,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "8 fatal/serious-injury crashes were observed versus approximately 0.72 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "11.1× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 5 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-011",
+    "title": "SR 101 · ARM 365.32–365.53",
+    "route": "SR 101",
+    "arm": {
+      "begin": 365.32000732421875,
+      "end": 365.5299987792969
+    },
+    "classification": {
+      "tier": "Very Strong",
+      "persistence": "Recurring",
+      "peer_group": "U_Y_60-65"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 4,
+      "expected_fsi": 0.15836390296808525,
+      "observed_expected_ratio": 25.25828124358688,
+      "tail_probability": 0.00021767403197162557,
+      "unusualness_score": 3.662193378235473,
+      "total_exposure_million": 9.657507019042969
+    },
+    "persistence": {
+      "years_with_fsi": 2,
+      "persistence_rate": 0.3333333333333333,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 0,
+        "2024": 3,
+        "2025": 1
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Divided",
+      "speed_mph": 60.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 4.0,
+      "peer_group": "U_Y_60-65"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 89.04109589041096
+      },
+      "WEATHER": {
+        "most_common": "Raining",
+        "percent": 63.013698630136986
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Wet",
+        "percent": 84.93150684931507
+      },
+      "Roadway Characteristic": {
+        "most_common": "Curve & Grade",
+        "percent": 84.93150684931507
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 60.273972602739725
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "Unknown",
+        "percent": 57.534246575342465
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 89.04109589041096,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Curve & Grade",
+        "share_percent": 84.93150684931507,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 60.273972602739725,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Raining",
+        "share_percent": 63.013698630136986,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Wet",
+        "share_percent": 84.93150684931507,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "4 fatal/serious-injury crashes were observed versus approximately 0.16 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "25.3× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 2 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-012",
+    "title": "SR 291 · ARM 22.31–28.38",
+    "route": "SR 291",
+    "arm": {
+      "begin": 22.309999465942383,
+      "end": 28.3799991607666
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "R_N_50-55"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 6,
+      "expected_fsi": 0.7343466877051562,
+      "observed_expected_ratio": 8.170527763596354,
+      "tail_probability": 0.00351066971942296,
+      "unusualness_score": 2.45461002663809,
+      "total_exposure_million": 9.393931527709961
+    },
+    "persistence": {
+      "years_with_fsi": 4,
+      "persistence_rate": 0.6666666666666666,
+      "max_annual_fsi": 2.0,
+      "annual_fsi": {
+        "2020": 2,
+        "2021": 1,
+        "2022": 0,
+        "2023": 0,
+        "2024": 2,
+        "2025": 1
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Rural",
+      "divided": "Undivided",
+      "speed_mph": 50.0,
+      "lanes": 1.0,
+      "roadway_width_ft": 10.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "R_N_50-55"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 100.0
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 40.0
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 51.42857142857142
+      },
+      "Roadway Characteristic": {
+        "most_common": "Curve & Grade",
+        "percent": 57.14285714285714
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Dark-No Street Lights",
+        "percent": 48.57142857142857
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "50.0",
+        "percent": 60.0
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 100.0,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Curve & Grade",
+        "share_percent": 57.14285714285714,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Dark-No Street Lights",
+        "share_percent": 48.57142857142857,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 40.0,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 51.42857142857142,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "6 fatal/serious-injury crashes were observed versus approximately 0.73 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "8.2× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 4 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-013",
+    "title": "SR 410 · ARM 0.00–0.18",
+    "route": "SR 410",
+    "arm": {
+      "begin": 0.0,
+      "end": 0.18000000715255737
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_Y_50-55"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 5,
+      "expected_fsi": 0.5501916904024539,
+      "observed_expected_ratio": 9.08774175840897,
+      "tail_probability": 0.0036588902244692532,
+      "unusualness_score": 2.436650620199762,
+      "total_exposure_million": 16.293600647449495
+    },
+    "persistence": {
+      "years_with_fsi": 4,
+      "persistence_rate": 0.6666666666666666,
+      "max_annual_fsi": 2.0,
+      "annual_fsi": {
+        "2020": 1,
+        "2021": 1,
+        "2022": 0,
+        "2023": 1,
+        "2024": 2,
+        "2025": 0
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Divided",
+      "speed_mph": 55.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_Y_50-55"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 89.79591836734694
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 30.612244897959183
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 53.06122448979592
+      },
+      "Roadway Characteristic": {
+        "most_common": "Curve & Grade",
+        "percent": 38.775510204081634
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 51.02040816326531
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "55.0",
+        "percent": 48.97959183673469
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 89.79591836734694,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Curve & Grade",
+        "share_percent": 38.775510204081634,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 51.02040816326531,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 30.612244897959183,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 53.06122448979592,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "5 fatal/serious-injury crashes were observed versus approximately 0.55 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "9.1× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 4 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-014",
+    "title": "SR 509 · ARM 2.80–2.94",
+    "route": "SR 509",
+    "arm": {
+      "begin": 2.799999952316284,
+      "end": 2.940000057220459
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Recurring",
+      "peer_group": "U_Y_50-55"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 3,
+      "expected_fsi": 0.2346697405592433,
+      "observed_expected_ratio": 12.783923452809367,
+      "tail_probability": 0.005403855684096493,
+      "unusualness_score": 2.2672962578064553,
+      "total_exposure_million": 6.949605207443238
+    },
+    "persistence": {
+      "years_with_fsi": 3,
+      "persistence_rate": 0.5,
+      "max_annual_fsi": 1.0,
+      "annual_fsi": {
+        "2020": 0,
+        "2021": 0,
+        "2022": 0,
+        "2023": 1,
+        "2024": 1,
+        "2025": 1
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Divided",
+      "speed_mph": 50.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 8.0,
+      "peer_group": "U_Y_50-55"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Intersection and Related",
+        "percent": 81.81818181818183
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 54.54545454545454
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 68.18181818181817
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 92.42424242424242
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 59.09090909090909
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "35.0",
+        "percent": 33.33333333333333
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Intersection and Related",
+        "share_percent": 81.81818181818183,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 92.42424242424242,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 59.09090909090909,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 54.54545454545454,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 68.18181818181817,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "3 fatal/serious-injury crashes were observed versus approximately 0.23 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "12.8× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 3 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-015",
+    "title": "SR 516 · ARM 9.65–9.83",
+    "route": "SR 516",
+    "arm": {
+      "begin": 9.649999618530273,
+      "end": 9.829999923706055
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_N_40-45"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 8,
+      "expected_fsi": 1.0395796674288393,
+      "observed_expected_ratio": 7.695417918076597,
+      "tail_probability": 0.0024341294216797286,
+      "unusualness_score": 2.6136563342295926,
+      "total_exposure_million": 12.61442138671875
+    },
+    "persistence": {
+      "years_with_fsi": 5,
+      "persistence_rate": 0.8333333333333334,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 2,
+        "2021": 0,
+        "2022": 1,
+        "2023": 1,
+        "2024": 1,
+        "2025": 3
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Undivided",
+      "speed_mph": 45.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 0.0,
+      "peer_group": "U_N_40-45"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "At Intersection and Related",
+        "percent": 57.57575757575758
+      },
+      "WEATHER": {
+        "most_common": "Clear or Partly Cloudy",
+        "percent": 43.43434343434344
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 72.72727272727273
+      },
+      "Roadway Characteristic": {
+        "most_common": "Straight & Level",
+        "percent": 78.78787878787878
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 62.62626262626263
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "Unknown",
+        "percent": 36.36363636363637
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "At Intersection and Related",
+        "share_percent": 57.57575757575758,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Straight & Level",
+        "share_percent": 78.78787878787878,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 62.62626262626263,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear or Partly Cloudy",
+        "share_percent": 43.43434343434344,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 72.72727272727273,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "8 fatal/serious-injury crashes were observed versus approximately 1.04 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "7.7× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 5 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  },
+  {
+    "finding_id": "SL-016",
+    "title": "SR 599 · ARM 0.83–1.75",
+    "route": "SR 599",
+    "arm": {
+      "begin": 0.8299999833106995,
+      "end": 1.75
+    },
+    "classification": {
+      "tier": "Strong",
+      "persistence": "Persistent",
+      "peer_group": "U_Y_60-65"
+    },
+    "statistical_evidence": {
+      "observed_fsi": 8,
+      "expected_fsi": 1.332561402576879,
+      "observed_expected_ratio": 6.003475700654221,
+      "tail_probability": 0.006883592564630669,
+      "unusualness_score": 2.162184843191836,
+      "total_exposure_million": 81.26360147416591
+    },
+    "persistence": {
+      "years_with_fsi": 5,
+      "persistence_rate": 0.8333333333333334,
+      "max_annual_fsi": 3.0,
+      "annual_fsi": {
+        "2020": 2,
+        "2021": 1,
+        "2022": 3,
+        "2023": 0,
+        "2024": 1,
+        "2025": 1
+      }
+    },
+    "roadway_context": {
+      "urban_rural": "Urban",
+      "divided": "Divided",
+      "speed_mph": 60.0,
+      "lanes": 2.0,
+      "roadway_width_ft": 24.0,
+      "shoulder_width_ft": 10.0,
+      "peer_group": "U_Y_60-65"
+    },
+    "crash_context": {
+      "JUNCTION RELATIONSHIP": {
+        "most_common": "Not at Intersection and Not Related",
+        "percent": 85.71428571428571
+      },
+      "WEATHER": {
+        "most_common": "Clear",
+        "percent": 34.523809523809526
+      },
+      "ROAD SURFACE CONDITIONS": {
+        "most_common": "Dry",
+        "percent": 48.80952380952381
+      },
+      "Roadway Characteristic": {
+        "most_common": "Curve & Level",
+        "percent": 34.523809523809526
+      },
+      "LIGHTING CONDITIONS": {
+        "most_common": "Daylight",
+        "percent": 45.23809523809524
+      },
+      "VEH 1 POSTED SPEED": {
+        "most_common": "60.0",
+        "percent": 92.85714285714286
+      }
+    },
+    "investigation_factors": [
+      {
+        "factor": "Junction relationship",
+        "observed_pattern": "Not at Intersection and Not Related",
+        "share_percent": 85.71428571428571,
+        "interpretation": "Observed crash records at this segment were most commonly classified under this junction relationship."
+      },
+      {
+        "factor": "Roadway characteristic",
+        "observed_pattern": "Curve & Level",
+        "share_percent": 34.523809523809526,
+        "interpretation": "This was the most common roadway characteristic recorded among the matched crash records."
+      },
+      {
+        "factor": "Lighting",
+        "observed_pattern": "Daylight",
+        "share_percent": 45.23809523809524,
+        "interpretation": "This was the most common reported lighting condition among matched crashes."
+      },
+      {
+        "factor": "Weather",
+        "observed_pattern": "Clear",
+        "share_percent": 34.523809523809526,
+        "interpretation": "This was the most common reported weather condition among matched crashes."
+      },
+      {
+        "factor": "Road surface",
+        "observed_pattern": "Dry",
+        "share_percent": 48.80952380952381,
+        "interpretation": "This was the most common reported surface condition among matched crashes."
+      }
+    ],
+    "interpretation": {
+      "statistical_summary": "8 fatal/serious-injury crashes were observed versus approximately 1.33 expected for the modeled peer environment and exposure.",
+      "observed_expected_summary": "6.0× the modeled expected count.",
+      "persistence_summary": "FSI occurred in 5 of 6 years."
+    },
+    "methodology_note": "SAFELENS identifies roadway segments with statistically unusual fatal and serious-injury crash patterns after accounting for traffic exposure and peer roadway environment. Observed crash characteristics are descriptive and do not establish causation or prescribe an engineering treatment."
+  }
+]

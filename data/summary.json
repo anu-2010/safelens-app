@@ -1,0 +1,26 @@
+{
+  "project": "SAFELENS",
+  "version": "2026.1",
+  "title": "SAFELENS — WSDOT Safety Intelligence",
+  "tagline": "Discover. Explain. Investigate.",
+  "finding_count": 16,
+  "total_fsi_across_findings": 98.0,
+  "total_exposure_million_across_findings": 375.9365815317988,
+  "persistent_findings_4plus_years": 10,
+  "recurring_findings_2plus_years": 16,
+  "six_year_findings": 1,
+  "analysis_period": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "definitions": {
+    "FSI": "Fatal and serious-injury crashes",
+    "observed_expected_ratio": "Observed FSI divided by modeled expected FSI",
+    "persistence": "Number of analysis years in which the segment recorded at least one FSI crash",
+    "peer_group": "Roadway environment defined by urban/rural status, divided/undivided status, and speed category"
+  }
+}

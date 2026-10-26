@@ -1,0 +1,1400 @@
+{
+ "meta": {
+  "source": "WSDOT state-route crash file, 2020\u20132025 records",
+  "records_2020_2025": 278677,
+  "fsi_crash_records": 7851,
+  "statewide_fsi_rate": 0.02817240030573029,
+  "fsi_without_milepost": 0,
+  "records_by_year": {
+   "2020": 38725,
+   "2021": 48174,
+   "2022": 47406,
+   "2023": 48173,
+   "2024": 48717,
+   "2025": 47482
+  },
+  "location_bin_miles": 0.25,
+  "kind_points": {
+   "infrastructure": 3,
+   "mixed": 2,
+   "behavior": 1
+  },
+  "effort_points": {
+   "low": 3,
+   "medium": 2,
+   "high": 1
+  },
+  "volume_steps": [
+   [
+    0.1,
+    3
+   ],
+   [
+    0.04,
+    2
+   ],
+   [
+    0.01,
+    1
+   ]
+  ],
+  "repeat_steps": [
+   [
+    0.4,
+    3
+   ],
+   [
+    0.25,
+    2
+   ],
+   [
+    0.1,
+    1
+   ]
+  ],
+  "persist_cap": [
+   [
+    6,
+    3
+   ],
+   [
+    4,
+    2
+   ],
+   [
+    0,
+    1
+   ]
+  ],
+  "factors": [
+   "evidence",
+   "addressability",
+   "repeat_locations",
+   "effort"
+  ],
+  "junction_fsi_breakdown": {
+   "Not at Intersection and Not Related": 5045,
+   "Intersection Related but Not at Intersection": 187,
+   "At Intersection and Related": 1846,
+   "At Driveway": 334,
+   "Driveway Related but Not at Driveway": 44,
+   "At Intersection and Not Related": 332,
+   "Entering Roundabout": 25,
+   "Roundabout Related but not at Roundabout": 5,
+   "At Driveway within Major Intersection": 21,
+   "Circulating Roundabout": 8,
+   "Exiting Roundabout": 3,
+   "At Roundabout but not Related": 1
+  },
+  "notes": [
+   "Patterns overlap: one crash record can appear in several patterns, so shares do not sum to 100%.",
+   "FSI = fatal or serious-injury crash records (FATAL CRASHES + SERIOUS INJURY CRASHES > 0).",
+   "Driver-behavior and contributing-circumstance fields are officer-reported and may be incomplete.",
+   "The fixability score is a prioritization judgment, not a prediction; no data on what was fixed was used.",
+   "Repeat locations use 0.25-mile route/milepost bins, not the app's segment definition. FSI records with no usable route code or milepost count as non-repeat, so repeat shares are lower bounds.",
+   "All records are on state routes, so jurisdiction does not differentiate patterns."
+  ]
+ },
+ "patterns": [
+  {
+   "id": "int_signal",
+   "label": "At intersection, signal-controlled",
+   "kind": "infrastructure",
+   "effort": "low",
+   "fsi_crashes": 909,
+   "all_crashes": 34994,
+   "share_of_fsi": 0.1157814291173099,
+   "severity_rate": 0.025975881579699378,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.5621562156215621,
+   "scores": {
+    "evidence": 3,
+    "addressability": 3,
+    "repeat_locations": 3,
+    "effort": 3
+   },
+   "score_total": 12,
+   "top_locations": [
+    {
+     "route": "503",
+     "arm_start": 1.75,
+     "arm_end": 2.0,
+     "fsi_crashes": 8
+    },
+    {
+     "route": "516",
+     "arm_start": 5.75,
+     "arm_end": 6.0,
+     "fsi_crashes": 8
+    },
+    {
+     "route": "099",
+     "arm_start": 33.25,
+     "arm_end": 33.5,
+     "fsi_crashes": 7
+    },
+    {
+     "route": "099",
+     "arm_start": 45.75,
+     "arm_end": 46.0,
+     "fsi_crashes": 7
+    },
+    {
+     "route": "167LX01793",
+     "arm_start": 0.0,
+     "arm_end": 0.25,
+     "fsi_crashes": 7
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "id": "curve_roadway",
+   "label": "On a curve (roadway characteristic)",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 1889,
+   "all_crashes": 47066,
+   "share_of_fsi": 0.24060629219207744,
+   "severity_rate": 0.0401351293927676,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.2673372154579142,
+   "scores": {
+    "evidence": 3,
+    "addressability": 3,
+    "repeat_locations": 2,
+    "effort": 2
+   },
+   "score_total": 10,
+   "top_locations": [
+    {
+     "route": "005Q116177",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "082Q510262",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "002",
+     "arm_start": 63.0,
+     "arm_end": 63.25,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "005",
+     "arm_start": 165.75,
+     "arm_end": 166.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "007",
+     "arm_start": 47.25,
+     "arm_end": 47.5,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 2
+  },
+  {
+   "id": "dark_unlit",
+   "label": "Dark with no street lights",
+   "kind": "infrastructure",
+   "effort": "low",
+   "fsi_crashes": 1341,
+   "all_crashes": 27708,
+   "share_of_fsi": 0.1708062667176156,
+   "severity_rate": 0.048397574707665654,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.13124533929903057,
+   "scores": {
+    "evidence": 3,
+    "addressability": 3,
+    "repeat_locations": 1,
+    "effort": 3
+   },
+   "score_total": 10,
+   "top_locations": [
+    {
+     "route": "005",
+     "arm_start": 148.75,
+     "arm_end": 149.0,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "005",
+     "arm_start": 194.75,
+     "arm_end": 195.0,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "017",
+     "arm_start": 27.0,
+     "arm_end": 27.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "017",
+     "arm_start": 65.5,
+     "arm_end": 65.75,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "022",
+     "arm_start": 4.75,
+     "arm_end": 5.0,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 3
+  },
+  {
+   "id": "pedestrian",
+   "label": "Pedestrian involved",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 1048,
+   "all_crashes": 2759,
+   "share_of_fsi": 0.1334861801044453,
+   "severity_rate": 0.3798477709314969,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.3387404580152672,
+   "scores": {
+    "evidence": 3,
+    "addressability": 3,
+    "repeat_locations": 2,
+    "effort": 2
+   },
+   "score_total": 10,
+   "top_locations": [
+    {
+     "route": "099",
+     "arm_start": 33.0,
+     "arm_end": 33.25,
+     "fsi_crashes": 10
+    },
+    {
+     "route": "099",
+     "arm_start": 45.75,
+     "arm_end": 46.0,
+     "fsi_crashes": 8
+    },
+    {
+     "route": "002",
+     "arm_start": 278.75,
+     "arm_end": 279.0,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "099",
+     "arm_start": 6.75,
+     "arm_end": 7.0,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "099",
+     "arm_start": 11.75,
+     "arm_end": 12.0,
+     "fsi_crashes": 5
+    }
+   ],
+   "rank": 4
+  },
+  {
+   "id": "angle",
+   "label": "Entering-at-angle collisions",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 832,
+   "all_crashes": 27620,
+   "share_of_fsi": 0.10597376130429245,
+   "severity_rate": 0.030123099203475744,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.33052884615384615,
+   "scores": {
+    "evidence": 3,
+    "addressability": 3,
+    "repeat_locations": 2,
+    "effort": 2
+   },
+   "score_total": 10,
+   "top_locations": [
+    {
+     "route": "516",
+     "arm_start": 5.75,
+     "arm_end": 6.0,
+     "fsi_crashes": 7
+    },
+    {
+     "route": "509",
+     "arm_start": 2.75,
+     "arm_end": 3.0,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "097",
+     "arm_start": 60.25,
+     "arm_end": 60.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "099",
+     "arm_start": 33.0,
+     "arm_end": 33.25,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "104",
+     "arm_start": 13.5,
+     "arm_end": 13.75,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 5
+  },
+  {
+   "id": "int_stop",
+   "label": "At intersection, stop- or yield-controlled",
+   "kind": "infrastructure",
+   "effort": "low",
+   "fsi_crashes": 429,
+   "all_crashes": 11898,
+   "share_of_fsi": 0.05464272067252579,
+   "severity_rate": 0.03605648008068583,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.32867132867132864,
+   "scores": {
+    "evidence": 2,
+    "addressability": 3,
+    "repeat_locations": 2,
+    "effort": 3
+   },
+   "score_total": 10,
+   "top_locations": [
+    {
+     "route": "002",
+     "arm_start": 291.75,
+     "arm_end": 292.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "104",
+     "arm_start": 13.5,
+     "arm_end": 13.75,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "395",
+     "arm_start": 34.25,
+     "arm_end": 34.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "007",
+     "arm_start": 21.5,
+     "arm_end": 21.75,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "011",
+     "arm_start": 1.25,
+     "arm_end": 1.5,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 6
+  },
+  {
+   "id": "lane_departure",
+   "label": "Lane departure",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 3119,
+   "all_crashes": 60114,
+   "share_of_fsi": 0.3972742325818367,
+   "severity_rate": 0.05188475230395582,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.213209361974992,
+   "scores": {
+    "evidence": 3,
+    "addressability": 3,
+    "repeat_locations": 1,
+    "effort": 2
+   },
+   "score_total": 9,
+   "top_locations": [
+    {
+     "route": "005Q116177",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "082Q510262",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "005",
+     "arm_start": 148.75,
+     "arm_end": 149.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "007",
+     "arm_start": 47.25,
+     "arm_end": 47.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "008",
+     "arm_start": 11.0,
+     "arm_end": 11.25,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 7
+  },
+  {
+   "id": "run_off_road",
+   "label": "Ran off the road",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 2392,
+   "all_crashes": 56390,
+   "share_of_fsi": 0.3046745637498408,
+   "severity_rate": 0.04241886859372229,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.19230769230769232,
+   "scores": {
+    "evidence": 3,
+    "addressability": 3,
+    "repeat_locations": 1,
+    "effort": 2
+   },
+   "score_total": 9,
+   "top_locations": [
+    {
+     "route": "005Q116177",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "082Q510262",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "005",
+     "arm_start": 148.75,
+     "arm_end": 149.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "007",
+     "arm_start": 47.25,
+     "arm_end": 47.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "008",
+     "arm_start": 11.0,
+     "arm_end": 11.25,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 8
+  },
+  {
+   "id": "rear_end",
+   "label": "Rear-end collisions",
+   "kind": "mixed",
+   "effort": "low",
+   "fsi_crashes": 954,
+   "all_crashes": 95364,
+   "share_of_fsi": 0.1215131830340084,
+   "severity_rate": 0.010003775009437523,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.16981132075471697,
+   "scores": {
+    "evidence": 3,
+    "addressability": 2,
+    "repeat_locations": 1,
+    "effort": 3
+   },
+   "score_total": 9,
+   "top_locations": [
+    {
+     "route": "005",
+     "arm_start": 141.75,
+     "arm_end": 142.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "005",
+     "arm_start": 253.5,
+     "arm_end": 253.75,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "405",
+     "arm_start": 2.0,
+     "arm_end": 2.25,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "005",
+     "arm_start": 129.0,
+     "arm_end": 129.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "005",
+     "arm_start": 143.5,
+     "arm_end": 143.75,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 9
+  },
+  {
+   "id": "left_turn",
+   "label": "Left turn across opposing traffic",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 520,
+   "all_crashes": 14034,
+   "share_of_fsi": 0.06623360081518279,
+   "severity_rate": 0.03705287159754881,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.27307692307692305,
+   "scores": {
+    "evidence": 2,
+    "addressability": 3,
+    "repeat_locations": 2,
+    "effort": 2
+   },
+   "score_total": 9,
+   "top_locations": [
+    {
+     "route": "503",
+     "arm_start": 1.75,
+     "arm_end": 2.0,
+     "fsi_crashes": 7
+    },
+    {
+     "route": "099",
+     "arm_start": 33.75,
+     "arm_end": 34.0,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "004",
+     "arm_start": 60.25,
+     "arm_end": 60.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "099",
+     "arm_start": 46.0,
+     "arm_end": 46.25,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "167",
+     "arm_start": 5.25,
+     "arm_end": 5.5,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 10
+  },
+  {
+   "id": "driveway",
+   "label": "At or related to a driveway",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 399,
+   "all_crashes": 12170,
+   "share_of_fsi": 0.050821551394726786,
+   "severity_rate": 0.03278553820870994,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.2606516290726817,
+   "scores": {
+    "evidence": 2,
+    "addressability": 3,
+    "repeat_locations": 2,
+    "effort": 2
+   },
+   "score_total": 9,
+   "top_locations": [
+    {
+     "route": "099",
+     "arm_start": 46.0,
+     "arm_end": 46.25,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "007",
+     "arm_start": 54.0,
+     "arm_end": 54.25,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "099",
+     "arm_start": 33.75,
+     "arm_end": 34.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "524",
+     "arm_start": 5.75,
+     "arm_end": 6.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "527",
+     "arm_start": 1.5,
+     "arm_end": 1.75,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 11
+  },
+  {
+   "id": "impaired",
+   "label": "Impaired person recorded",
+   "kind": "behavior",
+   "effort": "low",
+   "fsi_crashes": 2575,
+   "all_crashes": 19723,
+   "share_of_fsi": 0.3279836963444147,
+   "severity_rate": 0.13055823150636314,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.23029126213592233,
+   "scores": {
+    "evidence": 3,
+    "addressability": 1,
+    "repeat_locations": 1,
+    "effort": 3
+   },
+   "score_total": 8,
+   "top_locations": [
+    {
+     "route": "005",
+     "arm_start": 148.75,
+     "arm_end": 149.0,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "007",
+     "arm_start": 47.25,
+     "arm_end": 47.5,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "007",
+     "arm_start": 52.5,
+     "arm_end": 52.75,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "082Q510262",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "099",
+     "arm_start": 33.0,
+     "arm_end": 33.25,
+     "fsi_crashes": 5
+    }
+   ],
+   "rank": 12
+  },
+  {
+   "id": "speeding",
+   "label": "Speeding driver recorded",
+   "kind": "behavior",
+   "effort": "low",
+   "fsi_crashes": 2039,
+   "all_crashes": 62388,
+   "share_of_fsi": 0.25971213858107245,
+   "severity_rate": 0.03268256716035135,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.23442864149092693,
+   "scores": {
+    "evidence": 3,
+    "addressability": 1,
+    "repeat_locations": 1,
+    "effort": 3
+   },
+   "score_total": 8,
+   "top_locations": [
+    {
+     "route": "005",
+     "arm_start": 143.5,
+     "arm_end": 143.75,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "005Q116177",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "007",
+     "arm_start": 47.25,
+     "arm_end": 47.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "003",
+     "arm_start": 31.25,
+     "arm_end": 31.5,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "005",
+     "arm_start": 128.75,
+     "arm_end": 129.0,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 13
+  },
+  {
+   "id": "wet_icy",
+   "label": "Wet, icy or snowy road surface",
+   "kind": "mixed",
+   "effort": "medium",
+   "fsi_crashes": 1857,
+   "all_crashes": 86476,
+   "share_of_fsi": 0.23653037829575851,
+   "severity_rate": 0.02147416624265692,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.22617124394184168,
+   "scores": {
+    "evidence": 3,
+    "addressability": 2,
+    "repeat_locations": 1,
+    "effort": 2
+   },
+   "score_total": 8,
+   "top_locations": [
+    {
+     "route": "099",
+     "arm_start": 45.75,
+     "arm_end": 46.0,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "005",
+     "arm_start": 162.75,
+     "arm_end": 163.0,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "099",
+     "arm_start": 33.0,
+     "arm_end": 33.25,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "516",
+     "arm_start": 5.75,
+     "arm_end": 6.0,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "090",
+     "arm_start": 50.25,
+     "arm_end": 50.5,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 14
+  },
+  {
+   "id": "motorcycle",
+   "label": "Motorcycle involved",
+   "kind": "mixed",
+   "effort": "medium",
+   "fsi_crashes": 1513,
+   "all_crashes": 4982,
+   "share_of_fsi": 0.1927143039103299,
+   "severity_rate": 0.3036932958651144,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.20092531394580304,
+   "scores": {
+    "evidence": 3,
+    "addressability": 2,
+    "repeat_locations": 1,
+    "effort": 2
+   },
+   "score_total": 8,
+   "top_locations": [
+    {
+     "route": "005Q116177",
+     "arm_start": 0.25,
+     "arm_end": 0.5,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "004",
+     "arm_start": 60.25,
+     "arm_end": 60.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "005",
+     "arm_start": 165.75,
+     "arm_end": 166.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "007",
+     "arm_start": 52.5,
+     "arm_end": 52.75,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "099",
+     "arm_start": 33.75,
+     "arm_end": 34.0,
+     "fsi_crashes": 4
+    }
+   ],
+   "rank": 15
+  },
+  {
+   "id": "unrestrained",
+   "label": "Unrestrained occupant recorded",
+   "kind": "behavior",
+   "effort": "low",
+   "fsi_crashes": 1364,
+   "all_crashes": 5796,
+   "share_of_fsi": 0.17373582983059482,
+   "severity_rate": 0.23533471359558317,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.11290322580645161,
+   "scores": {
+    "evidence": 3,
+    "addressability": 1,
+    "repeat_locations": 1,
+    "effort": 3
+   },
+   "score_total": 8,
+   "top_locations": [
+    {
+     "route": "005",
+     "arm_start": 148.75,
+     "arm_end": 149.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "007",
+     "arm_start": 47.25,
+     "arm_end": 47.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "005",
+     "arm_start": 143.5,
+     "arm_end": 143.75,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "101",
+     "arm_start": 266.0,
+     "arm_end": 266.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "290",
+     "arm_start": 5.0,
+     "arm_end": 5.25,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 16
+  },
+  {
+   "id": "distracted",
+   "label": "Distracted driver recorded",
+   "kind": "behavior",
+   "effort": "low",
+   "fsi_crashes": 1096,
+   "all_crashes": 35103,
+   "share_of_fsi": 0.1396000509489237,
+   "severity_rate": 0.03122240264364869,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.13047445255474452,
+   "scores": {
+    "evidence": 3,
+    "addressability": 1,
+    "repeat_locations": 1,
+    "effort": 3
+   },
+   "score_total": 8,
+   "top_locations": [
+    {
+     "route": "099",
+     "arm_start": 33.0,
+     "arm_end": 33.25,
+     "fsi_crashes": 6
+    },
+    {
+     "route": "002",
+     "arm_start": 13.5,
+     "arm_end": 13.75,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "007",
+     "arm_start": 54.0,
+     "arm_end": 54.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "007",
+     "arm_start": 55.0,
+     "arm_end": 55.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "007",
+     "arm_start": 55.5,
+     "arm_end": 55.75,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 17
+  },
+  {
+   "id": "int_uncontrolled",
+   "label": "At intersection, no traffic control recorded",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 771,
+   "all_crashes": 24948,
+   "share_of_fsi": 0.09820405043943446,
+   "severity_rate": 0.030904280904280903,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.19066147859922178,
+   "scores": {
+    "evidence": 2,
+    "addressability": 3,
+    "repeat_locations": 1,
+    "effort": 2
+   },
+   "score_total": 8,
+   "top_locations": [
+    {
+     "route": "005",
+     "arm_start": 162.5,
+     "arm_end": 162.75,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "002",
+     "arm_start": 278.75,
+     "arm_end": 279.0,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "099",
+     "arm_start": 33.0,
+     "arm_end": 33.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "099",
+     "arm_start": 33.75,
+     "arm_end": 34.0,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "523",
+     "arm_start": 0.5,
+     "arm_end": 0.75,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 18
+  },
+  {
+   "id": "heavy_vehicle",
+   "label": "Heavy vehicle involved",
+   "kind": "mixed",
+   "effort": "medium",
+   "fsi_crashes": 775,
+   "all_crashes": 23076,
+   "share_of_fsi": 0.09871353967647434,
+   "severity_rate": 0.03358467672040215,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.11096774193548387,
+   "scores": {
+    "evidence": 2,
+    "addressability": 2,
+    "repeat_locations": 1,
+    "effort": 2
+   },
+   "score_total": 7,
+   "top_locations": [
+    {
+     "route": "097",
+     "arm_start": 60.25,
+     "arm_end": 60.5,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "005",
+     "arm_start": 140.0,
+     "arm_end": 140.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "007",
+     "arm_start": 48.25,
+     "arm_end": 48.5,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "181",
+     "arm_start": 4.25,
+     "arm_end": 4.5,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "281",
+     "arm_start": 2.25,
+     "arm_end": 2.5,
+     "fsi_crashes": 3
+    }
+   ],
+   "rank": 19
+  },
+  {
+   "id": "opposite_dir",
+   "label": "Opposite-direction crash away from junction",
+   "kind": "infrastructure",
+   "effort": "high",
+   "fsi_crashes": 727,
+   "all_crashes": 3724,
+   "share_of_fsi": 0.09259966883199593,
+   "severity_rate": 0.1952201933404941,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.10866574965612105,
+   "scores": {
+    "evidence": 2,
+    "addressability": 3,
+    "repeat_locations": 1,
+    "effort": 1
+   },
+   "score_total": 7,
+   "top_locations": [
+    {
+     "route": "018",
+     "arm_start": 26.75,
+     "arm_end": 27.0,
+     "fsi_crashes": 4
+    },
+    {
+     "route": "011",
+     "arm_start": 15.75,
+     "arm_end": 16.0,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "181",
+     "arm_start": 4.25,
+     "arm_end": 4.5,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "507",
+     "arm_start": 17.0,
+     "arm_end": 17.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "002",
+     "arm_start": 9.25,
+     "arm_end": 9.5,
+     "fsi_crashes": 2
+    }
+   ],
+   "rank": 20
+  },
+  {
+   "id": "bicyclist",
+   "label": "Bicyclist involved",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 182,
+   "all_crashes": 1028,
+   "share_of_fsi": 0.023181760285313973,
+   "severity_rate": 0.17704280155642024,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.1043956043956044,
+   "scores": {
+    "evidence": 1,
+    "addressability": 3,
+    "repeat_locations": 1,
+    "effort": 2
+   },
+   "score_total": 7,
+   "top_locations": [
+    {
+     "route": "027",
+     "arm_start": 88.0,
+     "arm_end": 88.25,
+     "fsi_crashes": 3
+    },
+    {
+     "route": "002COBROWNE",
+     "arm_start": 0.5,
+     "arm_end": 0.75,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "011",
+     "arm_start": 20.0,
+     "arm_end": 20.25,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "020",
+     "arm_start": 8.25,
+     "arm_end": 8.5,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "099",
+     "arm_start": 33.0,
+     "arm_end": 33.25,
+     "fsi_crashes": 2
+    }
+   ],
+   "rank": 21
+  },
+  {
+   "id": "drowsy",
+   "label": "Drowsy driver recorded",
+   "kind": "mixed",
+   "effort": "low",
+   "fsi_crashes": 273,
+   "all_crashes": 7109,
+   "share_of_fsi": 0.03477264042797096,
+   "severity_rate": 0.0384020256013504,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.02197802197802198,
+   "scores": {
+    "evidence": 1,
+    "addressability": 2,
+    "repeat_locations": 0,
+    "effort": 3
+   },
+   "score_total": 6,
+   "top_locations": [
+    {
+     "route": "019",
+     "arm_start": 11.25,
+     "arm_end": 11.5,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "090",
+     "arm_start": 119.25,
+     "arm_end": 119.5,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "224",
+     "arm_start": 9.25,
+     "arm_end": 9.5,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "002",
+     "arm_start": 13.75,
+     "arm_end": 14.0,
+     "fsi_crashes": 1
+    },
+    {
+     "route": "002",
+     "arm_start": 22.75,
+     "arm_end": 23.0,
+     "fsi_crashes": 1
+    }
+   ],
+   "rank": 22
+  },
+  {
+   "id": "work_zone",
+   "label": "In or near a work zone",
+   "kind": "mixed",
+   "effort": "low",
+   "fsi_crashes": 137,
+   "all_crashes": 5949,
+   "share_of_fsi": 0.01745000636861546,
+   "severity_rate": 0.02302908051773407,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.08029197080291971,
+   "scores": {
+    "evidence": 1,
+    "addressability": 2,
+    "repeat_locations": 0,
+    "effort": 3
+   },
+   "score_total": 6,
+   "top_locations": [
+    {
+     "route": "018",
+     "arm_start": 26.75,
+     "arm_end": 27.0,
+     "fsi_crashes": 5
+    },
+    {
+     "route": "005",
+     "arm_start": 8.25,
+     "arm_end": 8.5,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "005",
+     "arm_start": 134.75,
+     "arm_end": 135.0,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "101",
+     "arm_start": 266.0,
+     "arm_end": 266.25,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "002",
+     "arm_start": 47.5,
+     "arm_end": 47.75,
+     "fsi_crashes": 1
+    }
+   ],
+   "rank": 23
+  },
+  {
+   "id": "roundabout",
+   "label": "Roundabout entry or circulation",
+   "kind": "infrastructure",
+   "effort": "medium",
+   "fsi_crashes": 42,
+   "all_crashes": 4471,
+   "share_of_fsi": 0.005349636988918609,
+   "severity_rate": 0.0093938716170879,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.09523809523809523,
+   "scores": {
+    "evidence": 0,
+    "addressability": 3,
+    "repeat_locations": 0,
+    "effort": 2
+   },
+   "score_total": 5,
+   "top_locations": [
+    {
+     "route": "003",
+     "arm_start": 31.25,
+     "arm_end": 31.5,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "009",
+     "arm_start": 20.5,
+     "arm_end": 20.75,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "002",
+     "arm_start": 268.75,
+     "arm_end": 269.0,
+     "fsi_crashes": 1
+    },
+    {
+     "route": "002",
+     "arm_start": 270.5,
+     "arm_end": 270.75,
+     "fsi_crashes": 1
+    },
+    {
+     "route": "002",
+     "arm_start": 271.5,
+     "arm_end": 271.75,
+     "fsi_crashes": 1
+    }
+   ],
+   "rank": 24
+  },
+  {
+   "id": "wildlife",
+   "label": "Wildlife involved",
+   "kind": "mixed",
+   "effort": "high",
+   "fsi_crashes": 74,
+   "all_crashes": 8387,
+   "share_of_fsi": 0.00942555088523755,
+   "severity_rate": 0.008823178728985335,
+   "years_with_fsi": 6,
+   "repeat_location_share": 0.02702702702702703,
+   "scores": {
+    "evidence": 0,
+    "addressability": 2,
+    "repeat_locations": 0,
+    "effort": 1
+   },
+   "score_total": 3,
+   "top_locations": [
+    {
+     "route": "141",
+     "arm_start": 15.0,
+     "arm_end": 15.25,
+     "fsi_crashes": 2
+    },
+    {
+     "route": "002",
+     "arm_start": 3.75,
+     "arm_end": 4.0,
+     "fsi_crashes": 1
+    },
+    {
+     "route": "002",
+     "arm_start": 85.5,
+     "arm_end": 85.75,
+     "fsi_crashes": 1
+    },
+    {
+     "route": "002",
+     "arm_start": 238.75,
+     "arm_end": 239.0,
+     "fsi_crashes": 1
+    },
+    {
+     "route": "002",
+     "arm_start": 299.25,
+     "arm_end": 299.5,
+     "fsi_crashes": 1
+    }
+   ],
+   "rank": 25
+  }
+ ]
+}
